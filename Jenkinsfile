@@ -9,7 +9,7 @@ pipeline{
     
         stage("test"){
             steps{
-                ecgo 'testing the application...'
+                echo 'testing the application...'
             }
         }
 
